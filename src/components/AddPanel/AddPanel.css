@@ -1,0 +1,13 @@
+.add-panel {
+    width: 100%;
+    border-bottom: 2px solid rgb(193, 193, 193);
+    margin-bottom: 25px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.add-button {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}

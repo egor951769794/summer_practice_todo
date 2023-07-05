@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+localStorage.setItem("todos", JSON.stringify([
+  {id: 0, header: "Пример №1", description: "Пример того, как может выглядеть todo-лист с несколькими записями.", completed: true},
+  {id: 1, header: "Нажмите на заголовок, чтобы раскрыть описание", description: ":)", completed: false},
+  {id: 2, header: "Нажмите на корзину, чтобы удалить запись", description: "", completed: false},
+]))
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -10,8 +15,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

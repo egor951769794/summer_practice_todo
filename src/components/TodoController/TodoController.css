@@ -1,0 +1,19 @@
+.controller-body {
+    border: 2px solid rgb(193, 193, 193);
+    border-radius: 6px;
+    padding: 15px;
+    box-sizing: border-box; 
+    text-align: left;
+    user-select: none;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.controller-delete {
+    width: 30px;
+    height: 30px;
+    color: red;
+    cursor: pointer;
+}
