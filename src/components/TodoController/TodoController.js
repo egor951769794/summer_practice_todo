@@ -10,7 +10,6 @@ export default function TodoController({id, onRemove}) {
 
         localStorage.setItem("todos", JSON.stringify(todosFiltered));
         onRemove();
-        // alert(localStorage.getItem("todos"))
     }
 
     return (

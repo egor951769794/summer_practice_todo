@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import TodoWrapper from '../TodoWrapper/TodoWrapper';
 import './TodoList.css'
 
