@@ -1,4 +1,3 @@
-
 import './App.css';
 import TodoList from './components/TodoList/TodoList';
 import AddPanel from './components/AddPanel/AddPanel';

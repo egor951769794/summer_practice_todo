@@ -23,6 +23,8 @@ export default function TodoList() {
         </TodoWrapper>)
 
     return(
-        listTodos
+        <div className='todo_list'>
+            {listTodos}
+        </div>
     )
 }

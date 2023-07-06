@@ -36,9 +36,9 @@ export default function AddWindow({handleWindow}) {
             <div className='add_window-bg' onClick={() => handleWindow(false)}></div>
             <div className='add_window-body'>
                 <div className='add_window-header'>Добавить запись</div>
-                <input ref={refInputHeader} onChange={()=>handleCanSave()} placeholder='Заголовок'></input>
-                <input ref={refInputDesc} placeholder='Описание'></input>
-                {canSave? <div onClick={() => save()}>savw</div> : <div>savw</div>}
+                <input className='add_window-input' ref={refInputHeader} onChange={()=>handleCanSave()} placeholder='Описание'></input>
+                <input className='add_window-input add_window-desc' ref={refInputDesc} placeholder='Дополнительно'></input>
+                {canSave? <div className='add_window-button add_window-button_active' onClick={() => save()}>Добавить</div> : <div className='add_window-button'>Добавить</div>}
             </div>
         </div>
     )

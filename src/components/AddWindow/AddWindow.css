@@ -27,10 +27,43 @@
     border-radius: 5px;
     width: 50%;
     z-index: 6;
+    padding: 15px;
 }
 
 .add_window-header {
     font-weight: bold;
     font-size: 25px;
-    padding: 12px 0;
+    padding-bottom: 35px;
+}
+
+.add_window-input {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    padding: 10px 30px;
+
+    border: 2px solid rgb(193, 193, 193);
+    border-radius: 6px;
+    text-align: center;
+    min-width: 250px;
+}
+
+.add_window-desc {
+    padding: 30px;
+}
+
+.add_window-button {
+    user-select: none;
+    border: 3px solid rgb(110, 110, 110);
+    border-radius: 6px;
+    padding: 15px;
+    margin: auto;
+    max-width: 150px;
+    color: rgb(110, 110, 110);
+}
+
+.add_window-button_active {
+    cursor: pointer;
+    border: 3px solid rgb(112, 191, 104);
+    color: rgb(70, 118, 65);
 }
