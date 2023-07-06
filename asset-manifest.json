@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/summer_practice_todo/static/css/main.47606ad0.css",
+    "main.css": "/summer_practice_todo/static/css/main.043d3980.css",
     "main.js": "/summer_practice_todo/static/js/main.f0451841.js",
     "static/media/delete.svg": "/summer_practice_todo/static/media/delete.76e37d09b6d655a6df74761a4db546fa.svg",
     "index.html": "/summer_practice_todo/index.html",
     "static/media/add.svg": "/summer_practice_todo/static/media/add.99056f3969e366d6303bc94fc6ca143c.svg",
-    "main.47606ad0.css.map": "/summer_practice_todo/static/css/main.47606ad0.css.map",
+    "main.043d3980.css.map": "/summer_practice_todo/static/css/main.043d3980.css.map",
     "main.f0451841.js.map": "/summer_practice_todo/static/js/main.f0451841.js.map"
   },
   "entrypoints": [
-    "static/css/main.47606ad0.css",
+    "static/css/main.043d3980.css",
     "static/js/main.f0451841.js"
   ]
 }
